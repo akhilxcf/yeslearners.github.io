@@ -361,7 +361,8 @@ a{color:black}
     text-padding:5px;font-size:20px;
     background-color: red;
     color: white;
-position: absolute;
+position: -webkit-sticky;
+  position: sticky;
 align: right;
 line-height: 1.8;
     overflow: hidden;
@@ -371,8 +372,8 @@ line-height: 1.8;
 left: 70%;
     top: 80%;
     text-padding:5px;font-size:20px;
-    
-position: absolute;
+position: -webkit-sticky;
+  position: sticky;
 align: right;
 line-height: 1.8;
     overflow: hidden;
