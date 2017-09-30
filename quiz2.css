@@ -359,8 +359,8 @@ a{color:black}
 background-color:#ddd;
     position: fixed;
     padding: 2em;
-    left: 50%;
-    bottom: 10%;
+    left: 5%;
+    bottom: 50%;
     transform: translate(-50%, -10%);
 color:red;font-weight: bold;
 overflow:hidden;
