@@ -361,7 +361,7 @@ background-color:#ddd;
     padding: 2em;
     left: 50%;
     bottom: 10%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -10%);
 color:red;font-weight: bold;
 overflow:hidden;
 background-url:;
