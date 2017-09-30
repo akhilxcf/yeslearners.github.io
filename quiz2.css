@@ -365,24 +365,9 @@ background-color:white;
 font-weight: bold;
 overflow:hidden;
 }
- 
-
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 5px;
-  background-color: #cae8ca;
-  border: 2px solid #4CAF50;
-}
-div.sticky2 {
-  position: -webkit-sticky;
-  position: sticky;
-  align: right;
-  bottom: 0;
-  padding: 5px;
-  background-color: #cae8ca;
-  border: 2px solid #4CAF50;
+.red3 {
+      font-weight: bold;
+    color: red;
 }
 
 
