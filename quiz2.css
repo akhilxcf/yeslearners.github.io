@@ -377,12 +377,8 @@ font-weight: bold;
 overflow:hidden;
 background-url:;
 }
-.blue {
-  position: fixed;
-    padding: 2em;
-    left: 50%;
-    bottom: 0%;
-    transform: translateX(-50%);
+red2 {
+  color:red;
 }
 div.sticky {
   position: -webkit-sticky;
