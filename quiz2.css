@@ -366,9 +366,7 @@ font-weight: bold;
 overflow:hidden;
 }
  
-.red2 {
-  color:red;
-}
+
 div.sticky {
   position: -webkit-sticky;
   position: sticky;
