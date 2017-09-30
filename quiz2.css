@@ -364,7 +364,6 @@ background-color:white;
     transform: translate(-50%, -10%);
 font-weight: bold;
 overflow:hidden;
-background-url:;
 }
   .red1 {
 background-color:white;
@@ -374,8 +373,8 @@ background-color:white;
     bottom: 20%;
     transform: translate(-50%, -10%);
 font-weight: bold;
-overflow:hidden;
-background-url:;
+width: 100px;
+    margin-left:5px;
 }
 .red2 {
   color:red;
