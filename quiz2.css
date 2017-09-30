@@ -376,7 +376,7 @@ font-weight: bold;
 width: 120px;
     margin-left:1px;
 }
- @media only screen and (max-width: 768px) { red1 { }}
+ @media only screen and (max-width: 500px) { red1 { }}
 .red2 {
   color:red;
 }
