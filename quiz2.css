@@ -360,7 +360,7 @@ background-color:#ddd;
     position: fixed;
     padding: 2em;
     left: 50%;
-    top: 0%;
+    bottom: 10%;
     transform: translate(-50%, -50%);
 color:red;font-weight: bold;
 overflow:hidden;
@@ -385,7 +385,7 @@ div.sticky2 {
   position: -webkit-sticky;
   position: sticky;
   align: right;
-  top: 0;
+  bottom: 0;
   padding: 5px;
   background-color: #cae8ca;
   border: 2px solid #4CAF50;
