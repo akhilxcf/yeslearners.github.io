@@ -361,7 +361,7 @@ a{color:black}
     text-padding:5px;font-size:20px;
     background-color: red;
     color: white;
-  position: sticky;
+  position: absolute;
 align: right;
 line-height: 1.8;
     overflow: hidden;
@@ -372,7 +372,7 @@ left: 70%;
     top: 80%;
     text-padding:5px;font-size:20px;
 
-  position: sticky;
+  position: absolute;
 align: right;
 line-height: 1.8;
     overflow: hidden;
