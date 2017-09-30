@@ -356,24 +356,17 @@ a{color:black}
   background: #3B5998;
 }
 .red {
-    left: 70%;
-    top: 10%;
-    text-padding:5px;font-size:20px;
-    background-color: red;
-    color: white;
-  position: absolute;
-align: right;
-line-height: 1.8;
-    overflow: hidden;
+position: fixed;
+    padding: 2em;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+
 }
 .blue {
- 
-left: 70%;
-    top: 80%;
-    text-padding:5px;font-size:20px;
-
-  position: absolute;
-align: right;
-line-height: 1.8;
-    overflow: hidden;
+  position: fixed;
+    padding: 2em;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%);
 }
