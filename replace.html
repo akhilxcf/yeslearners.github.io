@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Find and Replace Multiple Text Online - Tools - Joydeep Deb</title>
+<link rel="alternate" href="https://www.joydeepdeb.com/tools/find-replace.html" hreflang="en">
+<link rel="publisher" href="https://plus.google.com/+JoydeepDeb">
+<link rel="shortcut icon" href="https://www.joydeepdeb.com/favicon.ico">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.joydeepdeb.com/prism.css">
+<link rel="stylesheet" href="https://www.joydeepdeb.com/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://www.joydeepdeb.com/jquery.js"></script>
+<script src="https://www.joydeepdeb.com/prism.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Joydeep Deb","email":"mailto:joydeep@joydeepdeb.com","image":"https://www.joydeepdeb.com/images/joydeep-thumb.png","jobTitle":"Digital Marketing Project Lead","address":{"@type":"PostalAddress","addressLocality":"Bangalore","postalCode":"560001","addressRegion":"Karnataka","addressCountry":"India"},"url":"https://www.joydeepdeb.com/","sameAs":["https://www.facebook.com/JoydeepDeb","https://twitter.com/joydeep7","https://plus.google.com/+JoydeepDeb","https://www.linkedin.com/in/joydeep"]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"JoydeepDeb","alternateName":"JoydeepDeb.com","url":"https://www.joydeepdeb.com/","potentialAction":{"@type":"SearchAction","target":"https://www.joydeepdeb.com/search/?q={q}","query-input":"required name=q"}}</script>
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8">
+			<ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+				<li><a href="https://www.joydeepdeb.com/">Home</a></li>
+				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="https://www.joydeepdeb.com/tools/"><span itemprop="name">Tools</span></a><meta itemprop="position" content="1"></li>
+				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="https://www.joydeepdeb.com/tools/find-replace.html"><span itemprop="name">Find and Replace Multiple Text Online</span></a><meta itemprop="position" content="2"></li>
+			</ol>
+
+			<a href="https://www.joydeepdeb.com/tools/find-replace.html"><h1>Find and Replace Multiple Text Online</h1></a>
+						
+			<form name="frm">
+			<div class="form-group">
+				<label>Paste Your Content Below: <span class="text-danger">*</span></label>
+				<textarea class="form-control" rows="10" required placeholder="Insert Content Here..." id="uInput"></textarea>
+			</div>
+			<div id="TextBoxesGroup" class="form-horizontal">
+				<div id="TextBoxDiv1" class="form-group">
+					<label class="col-lg-2 control-label">Find #1 :</label>
+					<div class="col-lg-4">
+						<input type="text" class="form-control input-sm" placeholder="Find #1" id="findbox1">
+					</div>
+					<label class="col-lg-2 control-label">Replace #1 :</label>
+					<div class="col-lg-4">
+						<input type="text" class="form-control input-sm" placeholder="Replace #1" id="replacebox1">
+					</div>
+				</div>
+				<div id="TextBoxDiv2" class="form-group">
+					<label class="col-lg-2 control-label">Find #2 :</label>
+					<div class="col-lg-4">
+						<input type="text" class="form-control input-sm" placeholder="Find #2" id="findbox2">
+					</div>
+					<label class="col-lg-2 control-label">Replace #2 :</label>
+					<div class="col-lg-4">
+						<input type="text" class="form-control input-sm" placeholder="Replace #2" id="replacebox2">
+					</div>
+				</div>
+				<div id="TextBoxDiv3" class="form-group">
+					<label class="col-lg-2 control-label">Find #3 :</label>
+					<div class="col-lg-4">
+						<input type="text" class="form-control input-sm" placeholder="Find #3" id="findbox3">
+					</div>
+					<label class="col-lg-2 control-label">Replace #3 :</label>
+					<div class="col-lg-4">
+						<input type="text" class="form-control input-sm" placeholder="Replace #3" id="replacebox3">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+					<div class="col-lg-4"><button type="button" id="addbtn" class="btn btn-success btn-block"><span class="glyphicon glyphicon-plus"></span> Add Element</button><br></div>
+					<div class="col-lg-4"><button type="button" id="repbtn" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-remove"></span> Remove Element</button><br></div>
+					<div class="col-lg-4"><button type="reset" id="reset" class="btn btn-default btn-block"><span class="glyphicon glyphicon-repeat"></span> Reset</button><br></div>
+			</div>
+			<div class="row">
+					<div class="col-lg-12"><button type="button" id="fnrbtn" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-pencil"></span> Find &amp; Replace</button></div>
+			</div>
+			</form><br>
+
+	</div>
+</div>
+</body>
+</html>
