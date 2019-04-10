@@ -592,7 +592,7 @@ $(document).ready(function() {
 		counter++;
 	});
 	$("#repbtn").click(function() {
-		if (counter == 4) {
+		if (counter == 6) {
 			alert("No more textbox to can be removed");
 			return false;
 		}
