@@ -577,7 +577,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-	var counter = 4;
+	var counter = 6;
 	$("#addbtn").click(function() {
 		if (counter > 50) {
 			alert("Only 50 textboxes allowed");
