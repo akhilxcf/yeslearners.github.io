@@ -113,11 +113,22 @@
 					<div class="col-lg-4"><button type="reset" id="reset" class="btn btn-default btn-block"><span class="glyphicon glyphicon-repeat"></span> Reset</button><br></div>
 			</div>
 			<div class="row">
-					<div class="col-lg-12"><button type="button" id="fnrbtn" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-pencil"></span> Find &amp; Replace</button></div>
+					<div class="col-lg-12"><button onclick="fakecounter() type="button" id="fnrbtn" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-pencil"></span> Find &amp; Replace</button></div>
 			</div>
 			</form><br>
 
 	</div>
 </div>
+	<script>
+function fakecounter(){
+//decrease/increase counter value (depending on perceived popularity of your site!)
+var decrease_increase=5;
+var counterdate=new Date();
+var currenthits=counterdate.getTime().toString();
+currenthits=parseInt(currenthits.substring(2,currenthits.length-4))+decrease_increase-5515068;
+
+document.getElementById("replacebox1").value = currenthits;
+}
+</script>
 </body>
 </html>
