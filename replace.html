@@ -52,7 +52,7 @@
   left: 50%;
   width: 16px;
   height: 16px;
-  background: navy;
+  background: green;
   transform: translateX(-50%) translateY(-50%);
 }
 
@@ -160,11 +160,11 @@ input[type="checkbox"]:checked + span .fake-checkbox:after { display: block; }
 			<div id="TextBoxDiv7" class="form-group">
 					
 					<div class="col-lg-4">
-						<input type="text" class="form-control input-sm" placeholder="Find #7" value="Answer : C" id="findbox7">
+						<input type="hidden" class="form-control input-sm" placeholder="Find #7" value="Answer : C" id="findbox7">
 					</div>
 					<label class="col-lg-2 control-label">Answer :</label>
 					<div class="col-lg-4">	
-<input type="text" class="form-control input-sm" placeholder="Answer" id="replacebox7">
+<input type="text" class="form-control input-sm" placeholder="Answer" id="replacebox7" readonly>
   <label class="radio-button">
   <input type="radio" name="answer" class="form-control input-sm" onclick="myFunction(this.value)" value="Answer : A">
   <span class="label-visible">
