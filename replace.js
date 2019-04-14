@@ -577,7 +577,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-	var counter = 8;
+	var counter = 9;
 	$("#addbtn").click(function() {
 		if (counter > 50) {
 			alert("Only 50 textboxes allowed");
@@ -592,7 +592,7 @@ $(document).ready(function() {
 		counter++;
 	});
 	$("#repbtn").click(function() {
-		if (counter == 8) {
+		if (counter == 9) {
 			alert("No more textbox to can be removed");
 			return false;
 		}
