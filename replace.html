@@ -194,6 +194,16 @@ input[type="checkbox"]:checked + span .fake-checkbox:after { display: block; }
 </label>
 </div></div>
 
+				<div id="TextBoxDiv8" class="form-group">
+					
+					<div class="col-lg-4">
+						<input type="hidden" class="form-control input-sm" placeholder="Find #8"  id="findbox8">
+					</div>
+					<label class="col-lg-2 control-label">Option 2 :</label>
+					<div class="col-lg-4">
+						<input type="text" class="form-control input-sm" placeholder="Option 2" id="replacebox8">
+					</div>
+				</div>
 			</div>
 			<div class="row">
 				
@@ -201,7 +211,7 @@ input[type="checkbox"]:checked + span .fake-checkbox:after { display: block; }
 					<div class="col-lg-4"><button type="button" id="repbtn" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-remove"></span> Remove Element</button><br></div>--> 
 					<div class="col-lg-4"><button type="reset" id="reset" class="btn btn-default btn-block"><span class="glyphicon glyphicon-repeat"></span> Reset</button><br></div>
 		
-					<div class="col-lg-12"><button onclick="fakecounter()" type="button" id="fnrbtn" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-pencil"></span> Find &amp; Replace</button></div>
+					<div class="col-lg-12"><button onclick="fakecounter(); replace(); replace2;" type="button" id="fnrbtn" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-pencil"></span> Find &amp; Replace</button></div>
 			</div>
 			</form><br>
 
@@ -221,5 +231,39 @@ document.getElementById("replacebox1").value = currenthits;
   document.getElementById("replacebox7").value = answer;
 }
 </script>
+	
+<script>
+function replace() {
+  var word;
+  var selected = document.getElementById("replacebox7").value;
+  if (selected == Answer : A ) {
+    word = "'false' href='javascript:void(0);'><span>A";
+  } else if (selected == Answer : B) {
+    word = "'false' href='javascript:void(0);'><span>B";
+  } 
+  else if (selected == Answer : C) {
+    word = "'false' href='javascript:void(0);'><span>C";
+  } else if (selected == Answer : D) {
+    word = "'false' href='javascript:void(0);'><span>D";
+  } 
+  document.getElementById("findbox8").innerHTML = word;
+}
+function replace2() {
+  var word2;
+  var selected2 = document.getElementById("findbox8").value;
+  if (selected2 == "'false' href='javascript:void(0);'><span>A" ) {
+    word2 = "'true' href='javascript:void(0);'><span>A";
+  } else if (selected2 == "'false' href='javascript:void(0);'><span>B") {
+    word2 = "'true' href='javascript:void(0);'><span>B";
+  } 
+  else if (selected2 == "'false' href='javascript:void(0);'><span>C") {
+    word2 = "'true' href='javascript:void(0);'><span>C";
+  } else if (selected2 == "'false' href='javascript:void(0);'><span>D") {
+    word2 = "'true' href='javascript:void(0);'><span>D";
+  } 
+  document.getElementById("replacebox8").innerHTML = word2;
+}
+</script>
+
 </body>
 </html>
